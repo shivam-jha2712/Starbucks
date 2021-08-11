@@ -18,7 +18,6 @@ This is how the page looks like when done in function
 
 
 
-
   
 ## FAQ
 
