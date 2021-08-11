@@ -39,12 +39,11 @@ body {
   height: 215px;
   right: 40px;
   background: #017143;
-  margin: 30px 10px;
-  padding: 20px 15px;
+  /* margin: 30px 10px; */
+  /* padding: 20px 15px; */
   display: flex;
   flex-direction: column;
-  /* box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5); */
-  filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
+  box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
   transition: 0.4s ease-in-out;
 }
 
@@ -222,6 +221,11 @@ ul li a {
   margin: 5px 0;
   transform: scale(0.6);
   filter: invert(1);
+}
+.sci li:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  transform: translateX(-5px);
 }
 
 .circle {
